@@ -34,6 +34,9 @@ Creates a timestamped `.tar.gz` archive of the server directory and stores it on
 ### `scripts/ban_detector.sh`
 Parses the server log file for repeated IPs and adds them to the banned list if they exceed a connection threshold. Avoids duplicate entries.
 
+### `plugin/Anti VPN_proxy`
+Plugin for blocking access to 98% of users who use VPN or Proxy, using the antivpn.io API to identify the IP address.
+
 ## 📌 Disclaimer
 
 This project was originally developed as a personal initiative to secure and manage Minecraft servers. All security concepts implemented are applicable in real-world infrastructure and reflect practical IT/networking knowledge.

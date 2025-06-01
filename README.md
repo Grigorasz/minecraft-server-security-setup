@@ -28,13 +28,13 @@ This repository documents the infrastructure, automation, and security measures 
 
 ## 📜 Scripts Overview
 
-### `scripts/backup.sh`
+### `sbackup.sh`
 Creates a timestamped `.tar.gz` archive of the server directory and stores it on a mounted NAS location. Deletes backups older than 7 days automatically.
 
-### `scripts/ban_detector.sh`
+### `sban_detector.sh`
 Parses the server log file for repeated IPs and adds them to the banned list if they exceed a connection threshold. Avoids duplicate entries.
 
-### `plugin/Anti VPN_proxy`
+### `Anti VPN_Proxy`
 Plugin that can detect and block up to 98% of users using VPN or Proxy trying to connect to the server, using the antivpn.io API to identify the IP address.
 
 ## 📌 Disclaimer

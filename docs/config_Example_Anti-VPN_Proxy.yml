@@ -9,6 +9,11 @@ whitelisted-countries:
   - DE
   - FR
 
+# Țări neacceptate (blacklist). Dacă e activ, tarile specificate nu au voie.
+blacklist-countries:
+  - RU
+  - UK
+
 # Lista de IP-uri blocate manual
 ip-blacklist:
   - 192.168.1.10

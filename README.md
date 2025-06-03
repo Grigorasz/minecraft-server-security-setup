@@ -37,6 +37,11 @@ Parses the server log file for repeated IPs and adds them to the banned list if 
 ### `Anti VPN_Proxy`
 Plugin that can detect and block up to 98% of users using VPN or Proxy trying to connect to the server, using the antivpn.io API to identify the IP address.
 
+## 📚 Documentation
+
+- [GeoIP + VPN Blocking Setup](docs/geoblock-setup.md)
+- ![Architecture Diagram](docs/minecraft_server_diagram.png)
+
 ## 📌 Disclaimer
 
 This project was originally developed as a personal initiative to secure and manage Minecraft servers. All security concepts implemented are applicable in real-world infrastructure and reflect practical IT/networking knowledge.

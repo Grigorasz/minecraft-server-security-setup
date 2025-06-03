@@ -43,7 +43,7 @@ Plugin that can detect and block up to 98% of users using VPN or Proxy trying to
   
 - [Sample Anti-VPN_Proxy](docs/Sample%20Anti-VPN_Proxy.java)
   
-- [Architecture Diagram] ![Architecture Diagram](docs/minecraft_server_diagram.png)
+- [Architecture Diagram](docs/minecraft_server_diagram.png) ![Architecture Diagram](docs/minecraft_server_diagram.png)
 
 ## 📌 Disclaimer
 

@@ -40,6 +40,7 @@ Plugin that can detect and block up to 98% of users using VPN or Proxy trying to
 ## 📚 Documentation
 
 - [GeoIP + VPN Blocking Setup](docs/geoblock-setup.md)
+- (docs/Sample Anti-VPN_Proxy)
 - ![Architecture Diagram](docs/minecraft_server_diagram.png)
 
 ## 📌 Disclaimer

@@ -1,0 +1,22 @@
+enabled: true
+
+# Dacă e true, folosește GeoIP blocking
+geoip-block: true
+
+# Țări acceptate (whitelist). Dacă e activ, doar acestea au voie.
+whitelisted-countries:
+  - RO
+  - DE
+  - FR
+
+# Lista de IP-uri blocate manual
+ip-blacklist:
+  - 192.168.1.10
+  - 10.0.0.1
+
+# Lista de IP-uri permise manual
+ip-whitelist:
+  - 123.123.123.123
+
+# Mesaj personalizat când cineva e blocat
+kick-message: "Accesul tău a fost restricționat. Contactează stafful."

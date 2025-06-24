@@ -17,6 +17,7 @@ This repository documents the infrastructure, automation, and security measures 
 
 - DDoS and bot attack mitigation using Cloudflare + proxy plugins
 - VPN/proxy access blocking with automated detection scripts
+- Used firewall rules to secure services and prevent unauthorized connections to server backends
 - GeoIP-based country blocking and logging for location analytics
 - High-ping auto-kick system to preserve server performance
 - Packet inspection using Wireshark to identify malicious IPs

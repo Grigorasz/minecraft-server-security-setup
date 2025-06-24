@@ -35,16 +35,12 @@ Creates a timestamped `.tar.gz` archive of the server directory and stores it on
 ### `sban_detector.sh`
 Parses the server log file for repeated IPs and adds them to the banned list if they exceed a connection threshold. Avoids duplicate entries.
 
-### `Anti VPN_Proxy`
-Plugin that can detect and block up to 98% of users using VPN or Proxy trying to connect to the server, using the antivpn.io API to identify the IP address.
 
 ## 📚 Documentation
 
 - [GeoIP + VPN Blocking Setup](docs/geoblock-setup.md)
-  
-- [Sample Anti-VPN_Proxy](docs/Sample%20Anti-VPN_Proxy.java)
 
-- [Config Example For Anti-VPN_Proxy](docs/config_Example_Anti-VPN_Proxy.yml)
+- [Config Example For Anti-VPN_Proxy from my Plugin](docs/config_Example_Anti-VPN_Proxy.yml)
   
 - [Architecture Diagram](docs/minecraft_server_diagram.png) ![Architecture Diagram](docs/minecraft_server_diagram.png)
 
